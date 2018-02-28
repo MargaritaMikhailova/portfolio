@@ -19,10 +19,12 @@
 	src: url(../fonts/FontAwesome/fontawesome-webfont.ttf);
 }
 @font-face {
-	font-family: 'FontAwesome';
+	font-family: 'Font_Awesome';
 	src: url(../fonts/FontAwesome/FontAwesome.otf);
 }
 @font-face {
 	font-family: 'OpenSans_Bold';
 	src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
 }
+
+
