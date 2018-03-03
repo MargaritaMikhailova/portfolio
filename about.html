@@ -5,6 +5,10 @@
 	<link rel="stylesheet"  href="css/style.css">
 	<link rel="stylesheet"  href="css/fonts.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/hello.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 	<title>About</title>
 </head>
 <body>
@@ -28,11 +32,11 @@
 			<ul class="side">
 
 
- <p><li class="side__item"><a href="#"><i class="fas fa-user-secret"></i>   Обо мне</a></li></p>
+ <p><li class="side__item"><a href="about.html"><i class="fas fa-user-secret"></i>   Обо мне</a></li></p>
 
   <p><li class="side__item"><a href="#"><i class="fas fa-rocket"></i>   Карьерный путь</a></li></p>
 
- <p> <li class="side__item"><a href="#"><i class="fas fa-briefcase"></i>   Портфолио</a></li></p>
+ <p> <li class="side__item"><a href="portfolio.html"><i class="fas fa-briefcase"></i>   Портфолио</a></li></p>
 
 			</ul>
 		</nav>
@@ -42,9 +46,12 @@
 <container class="container">
 	<div class="content_container">
 	<div class="container_foto">
-		<img src="image/photo.jpg" alt="container_foto" class="foto"></img>
+		<img src="image/photo.jpg" alt="container_foto" class="foto"></img></div>
 			<div class="container_about">
-			<h1> Обо мне </h1>
+				<div class="about__title">
+			</h1> Обо мне</h1>
+			</div>
+			<div class="about__text">
 		Меня зовут Анатолий. Проживаю в городе Тольятти. 
 В последнее время открыл для себя много интересного в
  JavaScript и всех сопутствующих тенденциях от 
@@ -64,11 +71,15 @@
      обошел стороной. Иногда Читаю Фаулера выборочно:
       рефакторинг, PoEAA. Проблем с 5+ лет в IT было
       решено много разных.	
+      </div>
 		</div>
-	</div>
+	
+	</div> 
 		
-	</div>
-<button class="btn btn--about"><i class="fas fa-download"></i>&nbsp  Скачать резюме</button>  
+	<div class="button__about">
+<button class="btn btn--about"><i class="fas fa-download"></i>&nbsp  Скачать резюме</button>
+</div> 
+
 </container>
 </div>
 <!--Container end-->
