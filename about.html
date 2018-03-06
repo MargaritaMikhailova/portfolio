@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!--[if lt IE 8]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 9]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 10]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 10]><!--> <html> <!--<![endif]-->
+
+<html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
+	<title>About</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/normalize.css">
+
 	<link rel="stylesheet"  href="css/style.css">
 	<link rel="stylesheet"  href="css/fonts.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/hello.css">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
-	<link rel="stylesheet" type="text/css" href="css/about.css">
-	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
-	<title>About</title>
+	
+	
 </head>
 <body>
+	<!--[if lt IE 10]>
+		<h1>Я виден только в ИЕ 8 и меньше</h1>
+	<![endif]-->
+
 	<div class="wrapper">
 		<div class="content">
 <!-- HEADER-->
@@ -25,6 +38,8 @@
 	</ul>
 </div>
 </header>
+
+
 		<!-- HEADER  end-->
 
 <!-- Sidebar -->
@@ -34,7 +49,7 @@
 
  <p><li class="side__item"><a href="about.html"><i class="fas fa-user-secret"></i>   Обо мне</a></li></p>
 
-  <p><li class="side__item"><a href="#"><i class="fas fa-rocket"></i>   Карьерный путь</a></li></p>
+  <p><li class="side__item"><a href="career.html"><i class="fas fa-rocket"></i>   Карьерный путь</a></li></p>
 
  <p> <li class="side__item"><a href="portfolio.html"><i class="fas fa-briefcase"></i>   Портфолио</a></li></p>
 
@@ -46,7 +61,7 @@
 <container class="container">
 	<div class="content_container">
 	<div class="container_foto">
-		<img src="image/photo.jpg" alt="container_foto" class="foto"></img></div>
+		<img src="image/photo.jpg" alt="container_foto" class="foto__about"></img></div>
 			<div class="container_about">
 				<div class="about__title">
 			</h1> Обо мне</h1>
@@ -77,7 +92,9 @@
 	</div> 
 		
 	<div class="button__about">
+		<div class="about__btn">
 <button class="btn btn--about"><i class="fas fa-download"></i>&nbsp  Скачать резюме</button>
+</div>
 </div> 
 
 </container>

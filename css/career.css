@@ -97,6 +97,8 @@ font-family: "FiraSans_Regular";
 	flex: 1;
 	position: fixed;
 	height: 100%;
+	margin: 0 auto;
+
 }
 
 .side__item{
@@ -136,92 +138,102 @@ font-family: "FiraSans_Regular";
 
 /*Container*/
 .container{
-    float: left;
-    flex: 1;
-    width: 940px;
-    margin: 0 auto;
-    padding-left: 6%;
+	float: left;
+	flex: 1;
+	padding-left: 10%;
     padding-top: 1%;
-    }
-    
-.content_container{
+	}
 
-	display: flex;
-    flex-direction: row;
-   	padding-left: 25%;
+
+.career_container{
+display: flex;
+flex-direction: row;
+padding-left: 25%;
+
 }
+
+.career__past1{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.career__past2{
+display: flex;
+flex-direction: row;
+
+}
+
 
 .container_foto{
 
-
-
 }
-.foto__about{
-	width: 220px;
-	height: 220px;
-	border-radius: 110px;
-	background-color: #f5f5f5;
-	border: 5px solid #ffffff;
-	float: left; 
-	margin-top: 10%;
+.foto__career{
+width: 220px;
+height: 220px;
+border-radius: 9px;
+background-color: #595959;
+margin-top: 10%;
 
 }
 
-.container_about{
-	 	
+.career__group{
+	padding-top: 14%;
 }
-.about__title{
-	width: 378px;
-height: 66px;
+
+.career__title{
+
 font-size: 35px;
 line-height: 45px;
 color: rgb(65,65,65);
 font-family: "FiraSans_Regular";
-padding-left: 45px;
-    padding-top: 10px;
+
 
 }
-.about__text{
-		 display:inline-block;
- vertical-align:middle;
-	width: 389px;
-	height: 370px;
-	font-size: 18px;
-	line-height: 26px;
-	color: rgb(100,100,100);
-	font-family: "FiraSans_Regular";
-	margin-left: 50px;
-	 overflow-x: hidden
+
+.career__item{
+width: 380px;
+height: 107px;
+border-radius: 10px;
+box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+background-color: #ffffff;
+margin-top: 5%;
 }
 
-.button__about{
-width: 940px;
+.career__item:hover{
+	background-color: #33c1e3;
+	
 }
 
-.about__btn{
-float: right;
+.career__text{
+width: 338px;
+height: 94px;
+font-size: 21px;
+font-family: "FiraSans_Regular";
+color: #727272;
 }
 
-.btn--about{
-	width: 160px;
-	height: 40px;
-	border-radius: 20px;
-	border: 2px solid #e85f61;
-	font-size: 14px;
-	line-height: 28px;
-	background-color: #f6f6f6;
-	margin-top: 20px;
-	color: #e85f61;
-	font-family: 'FiraSans_Bold';
-	text-align: center;
-	cursor: pointer;
-	float: right;
+.title__career{
+width: 338px;
+height: 94px;
+font-size: 21px;
+font-family: "FiraSans_Light";
+color: #727272;
+padding-left: 5%;
+padding-top: 5%;
 }
 
-.btn--about:hover{
-	background:#e85f61;
-	color:#f6f6f6;
+.title__career:hover{
+	color:#f6f6f6
 }
+
+.career__text:hover{
+	color:#f6f6f6
+}
+
+
+
 /*Container end*/
 
 /*Footer*/
@@ -231,9 +243,10 @@ float: right;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	position: relative;
 	margin-top: 100px;
-}
 
+}
 
 .footer_section{
 	flex: 2 1 500px;
